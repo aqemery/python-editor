@@ -87,7 +87,7 @@ class PythonRunner {
           }
           lines.splice(1, to - 1);
           var newtext = lines.join("\n");
-          this._output(`<h1>${newtext}</h1>`);
+          this._output(newtext);
           return { error: newtext };
         });
       return out;
