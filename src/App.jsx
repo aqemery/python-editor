@@ -34,7 +34,7 @@ print(data)`);
 
   return (
     <>
-        <Split className="h-screen w-full" direction="vertical">
+        <Split className="absolute inset-0" direction="vertical">
           <Split className="flex flex-direction-col" direction="horizontal">
             <div className="not-prose relative">
               <Editor
